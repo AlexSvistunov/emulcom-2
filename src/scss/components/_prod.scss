@@ -2,7 +2,15 @@
   padding: var(--offset) 0;
 
   &__box-info {
-    max-width: 580px;
+    // max-width: 580px;
+    grid-column: 4 / 6 span;
+    @include big-desktop {
+      grid-column: 2 / 8;
+    }
+
+    @include mobile {
+      grid-column: 4 span;
+    }
 
   }
 
@@ -16,9 +24,7 @@
     margin-bottom: 80px;
   }
 
-  &__box-info {
-    grid-column: 4 / 12;
-  }
+
 
   &__title {
     margin: 0;
@@ -36,11 +42,34 @@
     background-position: right;
     background-repeat: no-repeat;
     background-size: 40%;
+    @include big-desktop {
+      grid-column: 4 span;
+      background-size: 27%;
+      background-position: bottom right;
+    }
+
+    @include tablet {
+      min-height: 250px;
+    }
+
+    @include mobile {
+      min-height: 200px;
+    }
+
+
   }
 
   &__item-box {
     padding: 52px 10px 44px 72px;
     max-width: 350px;
+
+    @include big-desktop {
+      padding: 30px 20px 40px 25px;
+    }
+
+    @include mobile {
+      padding: 20px 10px 30px 25px;
+    }
   }
 
   &__item--2 {

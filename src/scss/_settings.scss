@@ -144,4 +144,55 @@ a {
   text-transform: uppercase;
 }
 
+@include big-desktop {
+  .grid {
+    grid-template-columns: repeat(8,1fr);
+  }
+
+  .section-title {
+    font-size: 30px;
+  }
+
+  :root {
+    --offset: 100px;
+  }
+
+
+
+}
+
+@include tablet {
+  .section-title {
+    font-size: 28px;
+
+  }
+
+  :root {
+    --offset: 80px;
+  }
+
+}
+
+
+@include mobile {
+  .grid {
+    grid-template-columns: repeat(4,1fr);
+  }
+
+  .section-title {
+    font-size: 24px;
+  }
+
+  :root {
+    --offset: 60px;
+  }
+
+
+
+
+}
+
+
+
+
 
