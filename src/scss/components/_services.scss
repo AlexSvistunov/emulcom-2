@@ -1,0 +1,43 @@
+.services {
+  padding: var(--offset) 0;
+  background-color: #F3F6F8;
+
+  &__box {
+    gap: 250px;
+  }
+
+  &__title {
+    margin: 0;
+    margin-bottom: 80px;
+    max-width: 580px;
+  }
+
+  &__item {
+    grid-column: 3 span;
+    padding: 44px;
+    min-height: 490px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--light-color);
+  }
+
+  &__item-title {
+    color: var(--bg-color);
+    margin: 0;
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+
+  &__item-descr {
+    margin: 0;
+    font-size: 14px;
+  }
+
+  &__item-link {
+    display: flex;
+    gap: 10px;
+    color: #4D5D99;
+    margin-top: auto;
+  }
+
+}
