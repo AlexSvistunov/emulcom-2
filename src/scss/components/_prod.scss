@@ -6,10 +6,18 @@
 
   }
 
+  &__counter {
+    align-self: start;
+  }
+
   &__box {
-    gap: 200px;
-    align-items: flex-start;
+    // gap: 200px;
+    // align-items: flex-start;
     margin-bottom: 80px;
+  }
+
+  &__box-info {
+    grid-column: 4 / 12;
   }
 
   &__title {
