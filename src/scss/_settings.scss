@@ -113,3 +113,34 @@ a {
 .page--ios .dis-scroll {
   position: relative;
 }
+
+.section-title {
+  color: var(--bg-color);
+  font-family: "Gotham";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.section-counter {
+  color: var(--secondary-gary-500, #A4ACB1);
+  font-family: "Gotham";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+.section-title span {
+  color: #007BC2;
+}
+
+.section-box {
+  display: flex;
+
+}
+
+.section-counter {
+  text-transform: uppercase;
+}
+
+
