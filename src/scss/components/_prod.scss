@@ -5,7 +5,7 @@
     // max-width: 580px;
     grid-column: 4 / 6 span;
     @include big-desktop {
-      grid-column: 2 / 8;
+      grid-column: 1 / 8;
     }
 
     @include mobile {
@@ -16,6 +16,7 @@
 
   &__counter {
     align-self: start;
+    grid-column: 2 span;
   }
 
   &__box {
