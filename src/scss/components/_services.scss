@@ -21,6 +21,7 @@
 
   &__counter {
     align-self: start;
+    grid-column: 2 span;
   }
 
   &__item {

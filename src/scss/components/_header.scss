@@ -29,6 +29,8 @@
   }
 
 
+
+
 }
 
 .burger {
@@ -60,6 +62,10 @@
   height: 40px;
   background-image: url('../../img/logo.svg');
   @include bg-cover;
+  @include mobile {
+    width: 165px;
+    height: 31px;
+  }
 }
 
 
@@ -163,6 +169,31 @@
     color: white;
   }
 
+}
+
+.user-nav__lang-box{
+  position: relative;
+}
+
+.lang-dropdown {
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .3s ease, visibility 0.3s ease;
+}
+
+.lang-dropdown.active {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity .3s ease, visibility 0.3s ease;
+}
+
+.lang-dropdown__list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
 

@@ -18,18 +18,18 @@
         <nav class="nav" title="main nav">
           <ul class="list-reset nav__list">
             <li class="nav__item">
-              <a href="#" class="nav__link">Продукции</a>
+              <a href="#products" class="nav__link" data-scroll>Продукции</a>
             </li>
-            <li class="nav__item"><a href="#" class="nav__link">Продажи</a></li>
+            <li class="nav__item"><a href="#production" class="nav__link" data-scroll>Производство</a></li>
             <li class="nav__item">
-              <a href="#" class="nav__link">Контакты</a>
+              <a href="#contacts" class="nav__link" data-scroll>Контакты</a>
             </li>
           </ul>
         </nav>
       </div>
 
 
-      <a class="logo header__logo" href="#" aria-label="logo emulcom"></a>
+      <a class="logo header__logo" aria-label="logo emulcom"></a>
 
       <div class="user-nav">
         <button class="user-nav__search nav-search btn-reset">
@@ -65,7 +65,16 @@
           <a class="nav-phone__link" href="tel:74959677307">+7 (495) 967-7307</a>
         </div>
         <button class="user-nav__lang nav-lang btn-reset">
-          <span class="nav-lang__head">РУ</span>
+          <div class="user-nav__lang-box">
+            <div class="lang-dropdown">
+              <ul class="lang-dropdown__list list-reset">
+                <li class="lang-dropdown__item">EN</li>
+                <li class="lang-dropdown__item">UA</li>
+                <li class="lang-dropdown__item">DE</li>
+              </ul>
+            </div>
+          </div>
+          <span class="nav-lang__head current-lang">РУ</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
@@ -78,7 +87,11 @@
               fill="white"
             />
           </svg>
+
+
         </button>
+
+
       </div>
 
       <div class="menu">
@@ -142,6 +155,8 @@
                 fill="white"
               />
             </svg>
+
+
           </button>
         </div>
 
