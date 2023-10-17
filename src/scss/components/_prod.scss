@@ -63,6 +63,10 @@
   &__item-box {
     padding: 52px 10px 44px 72px;
     max-width: 350px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
 
     @include big-desktop {
       padding: 30px 20px 40px 25px;
@@ -101,6 +105,7 @@
     display: flex;
     gap: 10px;
     color: #4D5D99;
+    margin-top: auto;
   }
 
 
