@@ -39,7 +39,7 @@
     grid-column: 6 span;
     min-height: 345px;
     background-color: #F3F6F8;
-    background-image: url('../../img/prod-1.png');
+    background-image: url('../img/prod-1.png');
     background-position: right;
     background-repeat: no-repeat;
     background-size: 40%;
@@ -78,16 +78,16 @@
   }
 
   &__item--2 {
-    background-image: url('../../img/prod-2.png');
+    background-image: url('../img/prod-2.png');
   }
 
   &__item--3 {
-    background-image: url('../../img/prod-3.png');
+    background-image: url('../img/prod-3.png');
   }
 
 
   &__item--4 {
-    background-image: url('../../img/prod-4.png');
+    background-image: url('../img/prod-4.png');
   }
 
   &__item-title {

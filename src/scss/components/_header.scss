@@ -60,7 +60,7 @@
 .logo {
   width: 220px;
   height: 40px;
-  background-image: url('../../img/logo.svg');
+  background-image: url('../img/logo.svg');
   @include bg-cover;
   @include mobile {
     width: 165px;

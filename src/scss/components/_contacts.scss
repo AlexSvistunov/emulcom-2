@@ -232,7 +232,7 @@
 .socials__link {
   width: 24px;
   height: 24px;
-  background-image: url('../../img/tg.svg');
+  background-image: url('../img/tg.svg');
   @include bg-cover;
 }
 
@@ -242,7 +242,7 @@
 }
 
 .socials__link--whatsapp {
-  background-image: url('../../img/whatsapp.svg');
+  background-image: url('../img/whatsapp.svg');
 }
 
 
