@@ -1,0 +1,7 @@
+<svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="2.17114" y="0.0499268" width="37.9417" height="3" transform="rotate(45 2.17114 0.0499268)" fill="white"/>
+<mask id="path-2-inside-1_0_606" fill="white">
+<path d="M29 5L29 29L5.00464 29L5.00464 5L29 5Z"/>
+</mask>
+<path d="M29 29L29 32L32 32L32 29L29 29ZM26 5L26 29L32 29L32 5L26 5ZM29 26L5.00464 26L5.00464 32L29 32L29 26Z" fill="white" mask="url(#path-2-inside-1_0_606)"/>
+</svg>
