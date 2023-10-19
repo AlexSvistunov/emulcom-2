@@ -144,6 +144,28 @@ a {
   text-transform: uppercase;
 }
 
+.btn-reset {
+  &:focus {
+    outline: none;
+  }
+
+  @include hover {
+    border-color: black;
+    color: black;
+  }
+
+  &:active {
+    border-color: blue;
+    color: blue;
+  }
+}
+
+.btn-reset.focus-visible {
+  border-color: wheat;
+}
+
+
+
 @include big-desktop {
   .grid {
     grid-template-columns: repeat(8,1fr);
